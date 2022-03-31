@@ -20,7 +20,7 @@ Then, boot up your application. Then, the codemod can be run using the
 following command:
 
 ```
-npx ember-native-class-codemod http://localhost:4200/path/to/server [OPTIONS] path/of/files/ or/some**/*glob.js
+npx hashicorp/ember-native-class-codemod http://localhost:4200/app [OPTIONS] path/of/files/ or/some**/*glob.js
 ```
 
 The codemod accepts the following options:
